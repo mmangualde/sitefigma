@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.top{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin-left: 53px;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+}
+.pages{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 55px;
+}
+.pages a{
+    font-size: 35px;
+    color: #FFF9E1;
+    margin-right: 140px;
+    text-decoration: none;
+}
+.pages hr{
+    margin-top: 10px;
+}
+.open{
+    fill: #FFF9E1;    
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#check{
+    position: absolute;
+    width: 68.25px;
+    height: 70px;
+    top: 100px;
+    left: 1765px;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+}
+#check:checked~.hidden{
+    visibility: visible;
+}
+.hidden{
+    background: none;
+    position: relative;
+    visibility: hidden;
+    top: 200px;
+    left: 37px;
+}
+.hidden ul{
+    padding: 0;
+    list-style: none;
+}
+.hidden li{
+    margin-top: 10px;
+}
+.hidden a{
+    text-decoration: none;
+}
+.normal{
+    color: #FFF9E1;
+}
+.log{
+    color: #CDC192;
+}
+.tittle{
+    color: #FFF9E1;
+    font-size: 80px;
+    position: relative;
+    align-self: center;
+    top: 80px;
+    font-style: italic;
+}
+.formulario{
+    background-image: url(fundo-de-textura-de-papel-branco_469558-27718.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.formulario h1{
+    color: #272726;
+    font-size: 35px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.form p{
+    color: #272726;
+}
+.box{
+    border-radius: 10px;
+    padding-left: 10px;
+    border: solid 1px #272726; 
+    color: #272726;
+    width: 300px;
+    height: 40px;
+    outline: none;
+}
+.marg{
+    margin-left: 50px;
+}
+#mensagem{
+    width: 1030px;
+    height: 200px;
+    resize: none;
+}
+.submit{
+    border: none;
+    cursor: pointer;
+    padding: 7px 60px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #272726;
+    color: #FFF9E1;
+    margin-top: 30px;
+}
+.rodape{
+    display: flex;
+    background-color: #272726;
+    padding: 20px 0;
+}
+.links{
+    display: flex;
+    list-style: none;
+}
+.links li{
+    margin-left: 60px;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    color: #FFFFFF;
+    line-height: 1.3;
+    position: relative;
+    left: 850px;
+}

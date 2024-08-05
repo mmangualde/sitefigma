@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.top{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin-left: 53px;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+}
+.pages{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 55px;
+}
+.pages a{
+    font-size: 35px;
+    color: #FFF9E1;
+    margin-right: 140px;
+    text-decoration: none;
+}
+.pages hr{
+    margin-top: 10px;
+}
+.open{
+    fill: #FFF9E1;    
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#check{
+    position: absolute;
+    width: 68.25px;
+    height: 70px;
+    top: 100px;
+    left: 1765px;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+}
+#check:checked~.hidden{
+    visibility: visible;
+}
+.hidden{
+    background: none;
+    position: relative;
+    visibility: hidden;
+    top: 200px;
+    left: 37px;
+}
+.hidden ul{
+    padding: 0;
+    list-style: none;
+}
+.hidden li{
+    margin-top: 10px;
+}
+.hidden a{
+    text-decoration: none;
+}
+.normal{
+    color: #FFF9E1;
+}
+.log{
+    color: #CDC192;
+}
+.tittle{
+    color: #FFF9E1;
+    font-size: 80px;
+    position: relative;
+    align-self: center;
+    top: 80px;
+    font-style: italic;
+}
+.cardapio{
+    padding: 70px 100px;
+    background-image: url(fundo-de-textura-de-papel-branco_469558-27718.avif);
+    background-size: cover;
+}
+.ctop, .baixo{
+    display: flex;
+}
+.ctop h2, .baixo h2{
+    color: #272726;    
+    font-size: 30px;
+    line-height: 1.5;
+}
+.top01 div, .top02 div{
+    display: flex;
+}
+.top01 hr, .top02 hr{
+    border: none;
+    border-top: 1px dotted #272726;
+    height: 1px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+.line01{
+    width: 600px;
+}
+.line02{
+    width: 353px;
+}
+.line03{
+    width: 570px;
+}
+.line04{
+    width: 513px;
+}
+.line05{
+    width: 605px;
+}
+.line06{
+    width: 504px;
+}
+.line07{
+    width: 476px;
+}
+.line08{
+    width: 487px;
+}
+.line09{
+    width: 510px;
+}
+.line10{
+    width: 517px;
+}
+.line11{
+    width: 574px;
+}
+.top01 p, .top02 p{
+    color: #272726;
+    font-weight: bold;
+    font-size: 23px;
+}
+.top01 a, .top02 a{
+    color: #272726;
+    font-size: 23px;
+    margin-left: 20px;
+}
+.ctop span, .baixo span{
+    color: #272726;
+    font-size: 15px;
+}
+.top02{
+    margin-left: 100px;
+}
+.baixo{
+    margin-top: 100px;
+}
+.rodape{
+    display: flex;
+    background-color: #272726;
+    padding: 20px 0;
+}
+.links{
+    display: flex;
+    list-style: none;
+}
+.links li{
+    margin-left: 60px;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    color: white;
+    line-height: 1.3;
+    position: relative;
+    left: 850px;
+}
